@@ -1,0 +1,127 @@
+@import"https://fonts.googleapis.com/css2?family=Rubik&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap";
+
+* {
+    font-family: Rubik, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #353740
+}
+
+div .context {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 25vh
+}
+
+div .context ul li {
+    display: flex;
+    align-items: center;
+    padding: 30px 0
+}
+
+img {
+    margin: 16px;
+    height: 45px;
+    width: 45px;
+    border-radius: 7px
+}
+
+.computer-input {
+    background-color: #444654
+}
+
+li p {
+    word-spacing: 2px;
+    color: #fff;
+    margin-right: 20px;
+    line-height: 1.7
+}
+
+.user-text {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+    left: 15%;
+    background-color: #353740
+}
+
+.user-text p {
+    color: #fff;
+    font-size: .7rem;
+    margin: 20px 0;
+    text-align: center
+}
+
+.user-text p a {
+    color: #fff
+}
+
+.user-text div {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.user-text input {
+    font-size: 1rem;
+    padding: 15px 10px;
+    width: 97%;
+    background-color: #444654;
+    color: #fff;
+    border: none;
+    box-shadow: #00000029 0 10px 36px, #0000000f 0 0 0 1px
+}
+
+.user-text i {
+    color: #ffffff80;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1.5rem
+}
+
+.user-text button {
+    background-color: transparent;
+    border: none
+}
+
+.gpt-header h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    font-family: Nunito Sans, sans-serif
+}
+
+.gpt-header p {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0;
+    margin-bottom: 120px
+}
+
+@media screen and (max-width: 767px) {
+    .context {
+        width: 100% !important
+    }
+
+    .user-text {
+        width: 100% !important;
+        left: 0%
+    }
+
+    .gpt-header h1 {
+        font-size: 3rem
+    }
+
+    .gpt-header p {
+        font-size: 1rem
+    }
+}
